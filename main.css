@@ -1,0 +1,544 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+header{
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+
+    .favicon{
+        display:flex;
+        gap: 10px;
+    }
+
+    .T{
+        width: 41px;
+        height: 41px;
+        border-radius: 50%;
+        background: #458FF6;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        font-family: Muli;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 33px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: white;
+
+    }
+    
+    .headerend{
+        display: flex;
+        width: 545px;
+        height: 23px;
+        justify-content: space-between;
+
+        .difcol{
+            color: gray;
+        }
+    }
+
+}
+
+.firstcont{
+    width: 100vw;
+    height: 639px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .Virtual{
+        width: 445px;
+        height: 338px;
+        margin-left: 100px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        border-radius: 16px;
+
+        .gray{
+            font-family: Muli;
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 30px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: gray;
+        }
+
+        h2{
+            font-family: Muli;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 56px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+
+        .button{
+            width: 200px;
+            height: 60px;
+            border-radius: 55px;
+            background: #458FF6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Muli;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 60px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: white;
+        }
+    }
+}
+
+.secondcont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+        .title{
+            width: 952px;
+            height: 177px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+
+            h3{
+                font-family: Muli;
+                font-size: 36px;
+                font-weight: 700;
+                line-height: 56px;
+                letter-spacing: 0em;
+                text-align: left;
+
+            }
+            
+            hr{
+                color: black;
+                width: 40px;
+        }
+
+            .firstinside{
+                font-family: Muli;
+                font-size: 18px;
+                font-weight: 300;
+                line-height: 30px;
+                letter-spacing: 0em;
+                text-align: center;
+                color: gray;
+            }
+         }
+
+    .momcont{
+        width: 1120px;
+        height: 745px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .childcont{
+        width: 350px;
+        height: 354px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-left: 30px;
+        padding-top: 50px;
+        padding-bottom:47px;
+        padding-left: 39px;
+        padding-right: 45px;
+        
+        .img{
+            width: 91.98px;
+            height: 90px;
+        }
+        
+        .title1{
+            font-family: Muli;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 56px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+
+        .info{
+            font-family: Muli;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 28px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: gray;
+        }
+    }
+}
+
+.button{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+        width: 200px;
+        height: 60px;
+        top: 2038px;
+        left: 700px;
+        border-radius: 55px;
+        background-color: white;
+        color: #458FF6;
+        font-family: Muli;
+        font-family: Muli;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 60px;
+        letter-spacing: 0em;
+        text-align: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-color:#458FF6;
+
+}
+
+.thirdcont{
+    width: 1273px;
+    height: 477px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+    .leading{
+        width: 486px;
+        height: 388px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-right: 40px;
+    }
+
+    h4{
+        font-family: Muli;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 56px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    hr{
+        width: 50px;
+    }
+
+    .trafaglar{
+        font-family: Muli;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: gray;
+    }
+}
+
+.fourthcont{
+    width: 1273px;
+    height: 477px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+    .download{
+        width: 420px;
+        height: 375px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    
+
+        h5{
+            font-family: Muli;
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 48px;
+            letter-spacing: 0em;
+            text-align: left;
+            padding-right: 80px
+        }
+
+        hr{
+            width: 56px;
+        }
+
+        .our{
+            font-family: Muli;
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 30px;
+            letter-spacing: 0em;
+            text-align: left;
+            padding-right: 40px;
+            color: gray;
+        }
+    }
+}
+
+.fifthcont{
+    width: 1120px;
+    height: 425px;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+
+
+        .fifthtitle{
+            width: 522px;
+            height: 48px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+
+                .customer{
+                    font-family: Muli;
+                    font-size: 36px;
+                    font-weight: 700;
+                    line-height: 48px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: white;
+                }
+        }
+
+        .mothercont{
+            width: 1120px;
+            height: 325px;
+            display: flex;
+            align-items: center;
+            justify-content:space-around;
+            
+        }
+
+        .profile{
+            width: 350px;
+            height: 141px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 30px;
+
+            .name{
+                font-family: Muli;
+                font-size: 22px;
+                font-weight: 700;
+                line-height: 48px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: white;
+            }
+
+            .sourname{
+                font-family: Muli;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 48px;
+                letter-spacing: 0em;
+                text-align: left;
+                color:lightgray;
+            }
+        }
+
+        .profileinfo{
+            width: 420px;
+            height: 120px;
+
+            .dedicated{
+                font-family: Muli;
+                font-size: 19px;
+                font-weight: 400;
+                line-height: 30px;
+                letter-spacing: 0em;
+                text-align: left;
+                color:  lightgray;
+            }
+        }
+
+}
+
+.sixthcont{
+    width: 1365.58px;
+    height: 675px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+        .heading{
+            width: 462px;
+            height: 84px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+                .check{
+                    font-family: Mulish;
+                    font-size: 36px;
+                    font-weight: 700;
+                    line-height: 56px;
+                    letter-spacing: 0em;
+                    text-align: left;
+
+                }
+        }
+
+        .dadcont{
+            width: 1365.58px;
+            height: 570px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+
+                .boycont{
+                    width: 350px;
+                    height: 512px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+
+                        .disease{
+                            font-family: Mulish;
+                            font-size: 21px;
+                            font-weight: 700;
+                            line-height: 32px;
+                            letter-spacing: 0em;
+                            text-align: left;
+                        }
+
+                        .article{
+                            font-family: Mulish;
+                            font-size: 16px;
+                            font-weight: 300;
+                            line-height: 28px;
+                            letter-spacing: 0em;
+                            text-align: left;
+                            color: gray;
+                        }
+
+                        .readmore{
+                            font-family: Mulish;
+                            font-size: 17px;
+                            font-weight: 600;
+                            line-height: 28px;
+                            letter-spacing: 0em;
+                            text-align: left;
+                            color: #67C3F3;
+                        }
+                }
+        }
+}
+
+.fathercont{
+    width: 1600px;
+    height: 432px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    margin-top: 150px;
+
+
+        .trflg{
+            width: 391px;
+            height: 201px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+                .T{
+                    font-family: Mulish;
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 30px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: white;
+                }
+
+                .text{
+                    font-family: Mulish;
+                    font-size: 18px;
+                    font-weight: 300;
+                    line-height: 28px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: lightgray;
+                }
+
+                .C{
+                    font-family: Mulish;
+                    font-size: 16px;
+                    font-weight: 300;
+                    line-height: 28px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color:  lightgray;
+                }
+        }
+
+        .company{
+            width: 195px;
+            height: 214px;
+
+                .satauri{
+                    font-family: Mulish;
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 60px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: white;
+                }
+
+                p{
+                    font-family: Mulish;
+                    font-size: 18px;
+                    font-weight: 300;
+                    line-height: 38px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: lightgray;
+                }
+        }
+
+}
